@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
+.header{
+    background:white;
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+}
+.logo{
+    width:80%;
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menus{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    padding:10px;
+    margin:5px;
+    transition:0.7s;
+    -webkit-transition:0.7s;
+    -moz-transition:0.7s;
+    -ms-transition:0.7s;
+    -o-transition:0.7s;
+}
+.menus:focus{
+    background:#ff5200;
+    color:white;
+}
+
+
+/* home page design */
+
+.homepage_container{
+    width:100%;
+    height:92vh;
+    overflow:hidden;
+    background: linear-gradient(#00000075,#000000bd,#000000c7),url("https://brigatebyabtahi.netlify.app/images/slide1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.homepage_elements{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.homepage_heading{
+    color: white;
+    font-size: 44px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6;
+}
+.homepage_subheading{
+    color: #a7a0a0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 451px;
+    margin-top: -18px;
+}
+
+.work_button{
+    padding:11px 34px !important;
+    background:#ff5200 !important;
+    border:none !important;
+    outline: none !important;
+    border-radius:5px !important;
+    -webkit-border-radius:5px !important;
+    -moz-border-radius:5px !important;
+    -ms-border-radius:5px !important;
+    -o-border-radius:5px !important;
+    color:white !important;
+    font-size:15px !important;
+    font-family: 'Oswald', sans-serif !important;
+    margin-top:25px !important;
+}
+
+
+/* about page design */
+
+.about_container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    min-height:92vh;
+}
+
+.about_wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_img{
+    width:570px;
+    height:400px;
+}
+.about_img img{
+    width:100%;
+    height:100%;
+    padding:20px;
+}
+
+.about_us_desc{
+    display:grid;
+    grid-template-rows: 200px 300px 20px;
+}
